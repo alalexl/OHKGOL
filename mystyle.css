@@ -5,16 +5,17 @@ body {
 	margin: 0;
 	font-weight: normal;
 	font-family: 'Comic Sans MS';
-{
+}
 section {
 	width: 100%;
 	padding: 0 7%;
 	display: table;
+	margin: 0;
 	max-width: none;
-	background-color: #273B44;
+	background-color: black;//#273B44;
 	height: 100vh;
 	
-	&:nth-of-type(2n) {
+	&:nth-of-type(3) {
 		background-color: #2E4B74;
 	}
 }

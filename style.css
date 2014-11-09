@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Comic Sans MS';
+{
+section {
+	width: 100%;
+	padding: 0 7%;
+	display: table;
+	max-width: none;
+	background-color: #273B44;
+	height: 100vh;
+	
+	&:nth-of-type(2n) {
+		background-color: #2E4B74;
+	}
+}
+.intro {
+	height: 90vh;
+}
+.content {
+	display:table-cell;
+	vertical-align:middle;
+}
+h1 {
+	font-size:4em;
+	display: block;
+}

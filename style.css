@@ -28,4 +28,17 @@ section {
 h1 {
 	font-size:4em;
 	display: block;
+	color: white;
+	font-weight: 300;
+}
+p {
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #C3CAD9;
+}
+footer {
+	padding: 1% 5%;
+	text-align: center;
+	background-color: #373B44;
+	color: white;
 }

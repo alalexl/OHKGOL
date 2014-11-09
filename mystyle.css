@@ -14,10 +14,9 @@ section {
 	max-width: none;
 	background-color: #273B44;
 	height: 100vh;
-	
-	&:nth-of-type(3) {
-		background-color: #2E4B74;
-	}
+}
+section:nth-child(2n) {
+	background-color: #2E4B74;
 }
 .intro {
 	height: 90vh;

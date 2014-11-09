@@ -6,28 +6,56 @@
 	<link rel="stylesheet" href="mystyle.css">
 </head>
 
+<script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+<script type="text/javascript">
+
+function GetUnity() {
+	if (typeof unityObject != "undefined") {
+		return unityObject.getObjectById("unityPlayer");
+	}
+	return null;
+}
+if (typeof unityObject != "undefined") {
+	unityObject.embedUnity("unityPlayer", "Web Player.unity3d", 480, 320);
+	
+}
+
+</script>
+
 <body>
 
 <section class="intro">
 	<div class="content">
-		<h1>Introducing... a new 3D experience</h1>
+		<h1>Platformers</h1>
 	</div>
 </section>
 
 <section>
 	<div class="content">
-		<h1>Experience a new kind of competition...</h1>
+		<h2>Experience a new kind of competition...</h2>
 	</div>
 </section>
 
 <section>
 	<div class="content">
-		<h1>You will never go back...</h1>
+		<h2>You will never go back...</h2>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
+		width="600" height="450"
+    	codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
+   		<param name="FULL ADRESS TO .UNITY3D FILE " value="NAME OF .unity3d" />
+   		<embed id="UnityEmbed" src="Web Player.unity3d" width="80%" height="80%"
+        type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
+		</object>
 	</div>
 </section>
 
 <footer>
-	Made by OHKGOL.
+	Made by OHKGOL
 </footer>
 
 </body>

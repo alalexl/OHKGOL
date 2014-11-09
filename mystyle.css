@@ -26,10 +26,16 @@ section:nth-child(2n) {
 	vertical-align:middle;
 }
 h1 {
-	font-size:4em;
+	font-size:5em;
 	display: block;
 	color: white;
-	font-weight: 300;
+	font-weight: 500;
+}
+h2 {
+	font-size:3em;
+	display: block;
+	color: white;
+	font-weight: 400;
 }
 p {
 	font-size: 1.5em;
